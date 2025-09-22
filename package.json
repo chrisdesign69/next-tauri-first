@@ -3,19 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=1304next dev --turbopack",
+    "dev": "next dev -p 1304 --turbopack",
     "build": "next build --turbopack",
-    "start": "PORT=1304next start",
+    "start": "next start -p 1304",
     "lint": "eslint"
   },
   "dependencies": {
+    "next": "15.5.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tauri-apps/cli": "^2.8.4",
     "eslint": "^9",
-    "eslint-config-next": "15.5.3",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "15.5.3"
   }
 }
