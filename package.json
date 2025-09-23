@@ -6,7 +6,8 @@
     "dev": "next dev -p 1304 --turbopack",
     "build": "next build --turbopack",
     "start": "next start -p 1304",
-    "lint": "eslint"
+    "lint": "eslint",
+    "tauri": "tauri"
   },
   "dependencies": {
     "next": "15.5.3",
